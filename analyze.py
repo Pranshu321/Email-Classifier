@@ -47,7 +47,6 @@ def extract_info(text):
     - product: string or null
     - order_id: string or null
     - requirements: [list]
-    - user_name: string or null (from email)
     Email: {text}
     """
     resp = client.chat.completions.create(
@@ -58,9 +57,10 @@ def extract_info(text):
     return json.loads(resp.choices[0].message.content) # type: ignore
 
 
-def draft_reply(email, sentiment, urgency, extracted):
+def draft_reply(name, email, sentiment, urgency, extracted):
     prompt = f"""
     Write a professional support reply. 
+    - Name of recipient is {name}.
     - Be empathetic if sentiment={sentiment}.
     - Address urgency={urgency}.
     - Mention product/order if available: {extracted}.
