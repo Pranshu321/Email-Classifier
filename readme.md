@@ -4,6 +4,10 @@ An intelligent **Streamlit-based email management tool** that helps support team
 
 This app automatically analyzes uploaded emails, classifies them by **sentiment** and **urgency**, extracts useful details, computes a **priority score**, and drafts personalized replies. It’s designed to **reduce manual workload**, speed up customer response times, and ensure no critical emails slip through the cracks.
 
+<img width="1920" height="876" alt="image" src="https://github.com/user-attachments/assets/fefd8f24-e870-47be-b8a7-251eba85ad4c" />
+
+<img width="1920" height="875" alt="image" src="https://github.com/user-attachments/assets/504aee91-2507-4ab8-8bac-4756f0d1a8db" />
+
 ---
 
 ## 🚀 Features
@@ -33,6 +37,7 @@ This app automatically analyzes uploaded emails, classifies them by **sentiment*
   * One-click **Approve & Send** buttons (mock action for now)
   * Sidebar filters by **urgency** and **sentiment**
 
+<img width="1920" height="1076" alt="image" src="https://github.com/user-attachments/assets/3ce669be-edf1-4922-893f-f6fab9044436" />
 ---
 
 ## ✨ Unique Features
