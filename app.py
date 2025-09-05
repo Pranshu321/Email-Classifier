@@ -5,7 +5,6 @@ from analyze import classify_sentiment, classify_urgency, extract_info, draft_re
 from priority import compute_priority
 from datetime import datetime
 import re
-import uuid
 
 st.set_page_config(page_title="📧 AI-Powered Email Assistant", layout="wide")
 
